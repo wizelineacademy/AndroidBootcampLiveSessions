@@ -10,3 +10,8 @@
   - Null-safety: ?, !!, ?:, as?
   - High-order functions
   - Extensions
+
+3. Testing:
+  - JUnit
+  - Mockito
+  - Espresso
