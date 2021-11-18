@@ -15,3 +15,8 @@
   - JUnit
   - Mockito
   - Espresso
+
+4. Custom views
+  - Differences from Activities & Fragments
+  - Creating a custom view
+  - Best practices for isolating Presentation and business logic from Views

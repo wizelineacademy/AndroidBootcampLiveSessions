@@ -37,4 +37,17 @@
       app:layout_constraintTop_toBottomOf="@id/primaryButton"
       android:text="secondary button"/>
 
+
+  <Button
+      android:id="@+id/secondActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="Launch new activity"
+      app:layout_constraintBottom_toTopOf="@+id/messageTextView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/secondaryButton"
+      />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

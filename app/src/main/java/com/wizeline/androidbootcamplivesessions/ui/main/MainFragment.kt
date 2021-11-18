@@ -1,5 +1,6 @@
 package com.wizeline.androidbootcamplivesessions.ui.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.wizeline.androidbootcamplivesessions.databinding.MainFragmentBinding
+import com.wizeline.androidbootcamplivesessions.ui.main.session_four.ConstraintActivity
 import com.wizeline.androidbootcamplivesessions.ui.main.session_two.Direction
 import com.wizeline.androidbootcamplivesessions.ui.main.session_two.Presentation
 import com.wizeline.androidbootcamplivesessions.ui.main.session_two.User
@@ -81,6 +83,11 @@ class MainFragment : Fragment() {
     binding.secondaryButton.setOnClickListener {
       // presentation.onButtonClicked.invoke()
       presentation.onButtonClicked()
+    }
+
+    binding.secondActivity.setOnClickListener {
+      val intent = Intent(context, ConstraintActivity::class.java)
+      startActivity(intent)
     }
   }
 
