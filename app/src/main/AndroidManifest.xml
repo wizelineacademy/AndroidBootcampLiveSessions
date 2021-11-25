@@ -8,8 +8,10 @@
       android:label="@string/app_name"
       android:roundIcon="@mipmap/ic_launcher_round"
       android:supportsRtl="true"
+      android:name=".CustomApplication"
       android:theme="@style/Theme.AndroidBootcampLiveSessions">
-    <activity android:name=".ui.main.session_four.ConstraintActivity"></activity>
+    <activity android:name=".ui.main.session_five.ProductsActivity"></activity>
+    <activity android:name=".ui.main.session_four.ConstraintActivity" />
     <activity android:name=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -3,4 +3,9 @@
   <string name="click_me">click me</string>
   <string name="title">Hello Friends</string>
   <string name="description">This is a cool view</string>
+  <string name="product_one_name">Macbook pro</string>
+  <string name="product_two_name">Bluetooth keyboard</string>
+  <string name="product_one_description">M1 Processor</string>
+  <string name="product_two_description">Color: White</string>
+  <string name="buy_now">buy now</string>
 </resources>

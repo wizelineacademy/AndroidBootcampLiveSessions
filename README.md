@@ -20,3 +20,8 @@
   - Differences from Activities & Fragments
   - Creating a custom view
   - Best practices for isolating Presentation and business logic from Views
+
+5. Dependency injection
+  - What is DI and why to use it?
+  - Intro to Dagger and Hilt
+  - Dependency injection with Hilt for Android

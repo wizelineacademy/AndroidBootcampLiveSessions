@@ -50,4 +50,16 @@
       app:layout_constraintTop_toBottomOf="@id/secondaryButton"
       />
 
+  <Button
+      android:id="@+id/productsButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="Open Products"
+      app:layout_constraintBottom_toTopOf="@+id/messageTextView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/secondActivity"
+      />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

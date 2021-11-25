@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.wizeline.androidbootcamplivesessions.databinding.MainFragmentBinding
+import com.wizeline.androidbootcamplivesessions.ui.main.session_five.ProductsActivity
 import com.wizeline.androidbootcamplivesessions.ui.main.session_four.ConstraintActivity
 import com.wizeline.androidbootcamplivesessions.ui.main.session_two.Direction
 import com.wizeline.androidbootcamplivesessions.ui.main.session_two.Presentation
@@ -87,6 +88,10 @@ class MainFragment : Fragment() {
 
     binding.secondActivity.setOnClickListener {
       val intent = Intent(context, ConstraintActivity::class.java)
+      startActivity(intent)
+    }
+    binding.productsButton.setOnClickListener {
+      val intent = Intent(context, ProductsActivity::class.java)
       startActivity(intent)
     }
   }
